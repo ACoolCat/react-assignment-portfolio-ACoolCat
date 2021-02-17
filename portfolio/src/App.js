@@ -3,6 +3,7 @@ import './App.css';
 import Bio from './bio/bio.js';
 import Story from './story/story.js'
 import Projects from './projects/projects.js'
+import Resume from './resume/resume.js'
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Bio/>
         <Projects/>
         <Story/>
+        <Resume/>
       </header>
     </div>
   );
