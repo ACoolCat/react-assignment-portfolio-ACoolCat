@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Bio from './bio/bio.js';
 import Story from './story/story.js'
@@ -13,8 +12,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div class="music">
+      </div>
+      <div className="header">
+        <img src='Face.jpg' className="face" alt="face" />
+      </div>
+      <header className="Base">
         <Bio/>
         <Projects/>
         <Story/>
