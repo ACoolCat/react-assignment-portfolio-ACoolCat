@@ -2,3 +2,7 @@
   text-align: center;
   width: 80vw;
 }
+
+.container ul{
+  list-style: none;
+}
