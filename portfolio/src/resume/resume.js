@@ -1,3 +1,5 @@
+import Form from './resume.PNG'
+
 function Resume() {
 
   return (
@@ -5,7 +7,7 @@ function Resume() {
         <h2>Interested?</h2>
         <div className="container">
           <p>Check out my resume: </p>
-          <img src='resume.PNG' className="resume" alt="resume" />
+          <img src={Form} className="resume" alt="resume" />
         </div>
     </div>
   );
