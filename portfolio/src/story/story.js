@@ -10,10 +10,10 @@ function Story() {
          <ul>
           <li>I studied Physics at Florida Atlantic University from 2017-2019.</li>
           <li>Took General Assembly's Full Stack coding bootcamp in summer of 2020.</li>
-          <li>Finaly I entered  FastTrack's Java Developer program</li>
+          <li>Finaly I entered  FastTrack's Java Developer program in January of 2021</li>
          </ul>
          <h3>What started my interest in programming?</h3>
-         <p>In middle school to highschool I was part of my school's robotics team. I began to help coding the robots we built, which sparked a love for developing in me. </p>
+         <p>From middle school to high school I was part of my school's robotics team. I began by coding the robots we built, which sparked a love for developing in me. </p>
          <h3>What are my hobbies or free time activities?</h3>
          <ul>
           <li>Playing games (namely JRPGs and action games)</li>

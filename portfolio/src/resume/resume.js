@@ -1,4 +1,5 @@
 import Form from './resume.PNG'
+import Form2 from './resume 2.PNG'
 
 function Resume() {
 
@@ -8,6 +9,8 @@ function Resume() {
         <div className="container">
           <p>Check out my resume: </p>
           <img src={Form} className="resume" alt="resume" />
+          <br/>
+          <img src={Form2} className="resume" alt="resume" />
         </div>
     </div>
   );

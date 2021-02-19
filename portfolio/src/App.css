@@ -57,3 +57,19 @@
   height: 53vh;
   border-radius: 50%;
 }
+
+#bioClass {
+  display: block;
+}
+
+#projectClass {
+  display: none;
+}
+
+#storyClass {
+  display: none;
+}
+
+#resumeClass {
+  display: none;
+}
