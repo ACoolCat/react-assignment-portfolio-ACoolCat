@@ -43,19 +43,19 @@ function App() {
     <div className="App">
       <div className="header">
         <img src={Face} className="face" alt="face" />
+        <div className="buttonList">
+          <button onClick={bioVisible}>Bio</button>
+          <button onClick={projectVisible}>Projects</button>
+          <button onClick={storyVisible}>Story</button>
+          <button onClick={resumeVisible}>Resume</button>
+        </div>
       </div>
-      <header className="Base">
-      <div className="buttonList">
-      <button onClick={bioVisible}>Bio</button>
-      <button onClick={projectVisible}>Projects</button>
-      <button onClick={storyVisible}>Story</button>
-      <button onClick={resumeVisible}>Resume</button>
-      </div>
+      <div className="Base">
         <div Id="bioClass"><Bio/></div>
         <div Id="projectClass"><Projects/></div>
         <div Id="storyClass"><Story/></div>
         <div Id="resumeClass"><Resume/></div>
-      </header>
+      </div>
     </div>
   );
 }
